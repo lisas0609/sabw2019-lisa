@@ -17,5 +17,7 @@ export class ListenComponent implements OnInit {
 
     for (let i = 0; i <= this.ende; i = i + 1)
       this.liste.push(i);
+       this.liste.pop();
   }
+
 }
