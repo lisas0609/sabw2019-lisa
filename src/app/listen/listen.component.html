@@ -3,10 +3,10 @@
 <form>
   <div class="container">
 	<div class="input-group mb-3">
-		<input type="number" name="Variable" 
-    [(ngModel)]="Variable" class="form-control" placeholder="Zahl" aria-label="Recipient's username" aria-describedby="button-addon2">
+		<input type="number" name="ende" 
+    [(ngModel)]="ende" class="form-control" placeholder="Zahl" aria-label="Recipient's username" aria-describedby="button-addon2">
   <div class="input-group-append">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Los!</button>
+    <button class="btn btn-outline-secondary" (click)="zaehle ()" type="button" id="button-addon2">Los!</button>
     </div>
   </div>
 </div>
