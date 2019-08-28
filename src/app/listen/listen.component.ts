@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListenComponent implements OnInit {
 
   constructor() { }
-Variable: number;
+  Variable: number;
   ngOnInit() {
   }
 
